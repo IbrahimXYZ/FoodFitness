@@ -1,0 +1,63 @@
+#nutri-srch{
+    height:30%;
+    border-radius: 1rem 0rem 0rem 1rem;
+    padding-left: 1rem;
+    border: .1rem solid #666;
+    width:60%;
+    
+    
+}
+
+
+
+#rcp-srch{
+    height:40%;
+    width:60%;
+    border-radius: 1rem 0rem 0rem 1rem;
+    padding-left: 1rem;
+    border: .1rem solid #666;
+
+}
+
+#food{
+    height:20%;
+    width:50%;
+    padding:.2rem;
+    border: .1rem solid #666;
+   
+}
+
+#calories{
+    height:20%;
+    width:50%;
+    padding:.2rem;
+    border: .1rem solid #666;
+}
+
+
+
+
+@media(min-width:768px){
+    #nutri-srch{
+        width:50%;
+        height:30%;
+    }
+
+    #food{
+        width:60%;
+        height:20%;
+    }
+
+    #calories{
+        width:60%;
+        height: 20%;
+    }
+}
+
+
+@media(min-width:1024px){
+
+    #nutri-srch{
+        height:3rem;
+    }
+}

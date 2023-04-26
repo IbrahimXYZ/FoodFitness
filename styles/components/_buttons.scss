@@ -1,0 +1,62 @@
+#nutri-btn{
+    height:30%;
+    border: .1rem solid #666;
+    border-radius: 0rem 1rem 1rem 0rem;
+    color: orange;
+    cursor: pointer;
+    width:15%;
+}
+
+#rcp-btn{
+    height:40%;
+    width:15%;
+    color: orange;
+    border-radius: 0rem 1rem 1rem 0rem;
+    border: .1rem solid #666;
+    cursor: pointer;
+
+}
+#add{
+    width:20%;
+    height:25%;
+    color: orange;
+    border: .1rem solid #666;
+
+}
+
+.edit{
+    color: orange;
+    border: .1rem solid #666;
+    width:10%;
+}
+
+.delete{
+    color: orange;
+    border:.1rem solid #666;
+}
+
+@media(min-width:768px){
+
+    #nutri-btn{
+        height:30%;
+        width:10%;
+    }
+
+    #add{
+        width:20%;
+        height:20%;
+    }
+
+    .edit{
+        width:40%;
+    }
+}
+
+@media(min-width:1024px){
+
+    #nutri-btn{
+        height:3rem;
+        width:4rem;
+    }
+
+}
